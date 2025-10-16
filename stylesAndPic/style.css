@@ -1,0 +1,225 @@
+#container1 {
+    background: #2A7230;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+
+#container2 {
+    background: rgb(239, 243, 241);
+}
+#VBox {
+    background:  #2A7230;
+    border-radius: 20px;
+}
+.form_labels {
+    color: rgb(239, 243, 241);
+    font-size: 12px;
+    font-family: 'helvetica', 'sans-serif';
+    margin-bottom: 10px;
+}
+QLineEdit {
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-bottom: 3px solid rgb(239, 243, 241);
+    background: transparent;
+    font-size: 17px;
+    font-family: 'helvetica', 'sans-serif';
+    color: white;
+    padding: 2px;
+    padding-bottom: 1px;
+}
+
+.signupbutton {
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: underline;
+    color: white;
+    font-size: 12px;
+    font-family: 'helvetica', 'sans-serif';
+    width: 90px;
+}
+.loginButton {
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    background: #53E15F;
+    width: 240px;
+    font-size: 12px;
+    font-family: 'helvetica', 'sans-serif';
+    margin-bottom: 20px;
+}
+
+.loginButton:hover {
+    border: 2px solid #bcc5e1;
+    background: #43B64D;
+}
+
+.signupbutton:hover {
+    color: #53E15F;
+
+}
+        /*navigation/sidebar*/
+#Window {
+      background: aliceblue;
+}
+
+#navigation {
+    background:  rgb(31, 158, 37);
+    max-width: 130px;
+    padding: 5px;
+    text-align: justify;
+    text-justify: inter-word;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.navigation_label {
+    font-size: 15px;
+    font-family: 'helvetica', 'sans-serif';
+    color: white;
+    background:  rgb(31, 158, 37);
+    padding-left: 5px;
+    border: none;
+    text-align: left;
+}
+.menuItems {
+    font-size: 15px;
+    font-family: 'helvetica', 'sans-serif';
+    color: white;
+    background:  rgb(31, 158, 37);
+    padding: 20px;
+    border: none;
+    text-align: left;
+}
+
+.menuItems:hover {
+     background: rgb(127, 179, 44);
+}
+.menuItems:focus {
+    padding-left: 25px;
+    border-left: 5px solid #53E15F;
+}
+.log_out_btn {
+    font-size: 15px;
+    font-family: 'helvetica', 'sans-serif';
+    color: white;
+    background:  rgb(31, 158, 37);
+    border: none;
+    margin: 10px;
+    padding: 7px;
+}
+.log_out_btn:hover {
+   background: rgb(127, 179, 44);
+    border-radius: 5px;
+}
+/*body designs*/
+#body {
+    background: aliceblue;
+}
+.label {
+    font-size: 20px;
+    font-family: 'helvetica', 'sans-serif';
+    color: #151515;
+    text-align: left;
+}
+#frame {
+    border-radius: 10px;
+    max-height: 5rem;
+    background:  #43B64D;
+}
+.card_label {
+    font-size: 15px;
+    font-family: 'helvetica', 'sans-serif';
+    color: white;
+    text-align: left;
+
+}
+.card_value_label {
+    margin: 0 5px 5px 20px;
+    font-size: 20px;
+    font-family: 'helvetica', 'sans-serif';
+    color: white;
+    text-align: right;
+}
+#announcement_frame {
+    background:  #43B64D;
+    border-radius: 20px;
+}
+.announcement_label {
+    color: white;
+    font-size: 15px;
+
+}
+.announcement_scroll{
+    background:  #43B64D;
+    border-radius: 20px;
+}
+#attendance_frame {
+    background:  #43B64D;
+    border-radius: 20px;
+}
+
+
+.graphframe {
+            background-color: #43B64D;
+            border-radius: 15px;
+            border: 1px solid #ccc;
+        }
+.passkey {
+    color: black;
+}
+/*Employee styles*/
+.container {
+    background: aliceblue;
+}
+.floating_button {
+    background-color: #43B64D;
+    color: white;
+    border-radius: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.floating_button:hover {
+    background-color: #43B64D;
+}
+
+
+ /*Add employee*/
+#EmployeeForm {
+    background: #43B64D;
+    font-family: 'helvetica', 'sans-serif';
+}
+.addEmlabel {
+    color: white;
+    font-size: 12px;
+    padding-top: 4px;
+}
+.addEmavatars {
+    border-radius: 60px;            /* rounded corners */
+    border: 2px solid white;        /* white circle border */
+    background-color: rgba(255,255,255,0.08);
+    min-width: 120px;
+    min-height: 120px;
+}
+.addEmlineedit {
+    border: none;
+    border-bottom: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 6px;
+    font-size: 14px;
+}
+.addEMbutton {
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+.addEMbutton:hover {
+    background: rgba(255,255,255,0.08);
+}
